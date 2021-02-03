@@ -55,6 +55,6 @@ module.exports.subModule = {
 
     const calculatedDate = sub(new Date(), operation);
 
-    console.log(calculatedDate);
+    console.log(formatISO(calculatedDate));
   },
 };
