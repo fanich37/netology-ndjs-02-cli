@@ -1,0 +1,15 @@
+{
+  "name": "02-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Andrey Alexandrov",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "yargs": "^16.2.0"
+  },
+  "bin": {
+    "date-util": "./src/date-util/index.js"
+  }
+}
